@@ -13,4 +13,4 @@ alias rt "report_timing"
 alias check "check_design"
 alias comp "compile -area_effort high -map_effort high"
 alias optimization "compile_ultra -retime"
-define_design_lib WORK -path ./WORK
+define_design_lib work -path ./work
