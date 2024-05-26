@@ -5,7 +5,7 @@ echo "=============================================="
 
 set design UART
 
-set_app_var search_path "../lib/"
+set_app_var search_path "../../lib/"
 set_app_var target_library "sky130_ss_1.62_125.db"
 set_app_var link_library "* $target_library"
 
