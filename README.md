@@ -49,4 +49,11 @@ This flow consist of:
 * Example Scripts
 ![digital](doc/img/digital.png "Digital Diagram")
 
+### Characterization
+
+The standard cell characterization flow begins with a netlist of the cell in SPICE. This netlist can be obtained directly from the schematic, or a parasitic extraction may be performed (using Calibre PEX) from the layout, obtaining a more realistic netlist of the cell. Also the electrical model of the cell's transistors was used.  
+
+The characterization is taken care using Synopsys SiliconSmart. SPICE netlist and foundry models were used as input files, and a configuration file is needed to set simulation and attribute parameters for the cells. The characterization result is a Composite Current Source (CCS) model called liberty file which provides timing, noise, static and dynamic power of each cell.
+
+CCS modeling is used nowadays for low power applications. The digital standard cell library also contains classic NLDM (Non Linear Delay Model) and Verilog models that is useful for Gate Level Netlist Post-Simulation.
 
