@@ -37,7 +37,7 @@ Example IC digital flow:
 1) Run the script DC (dc/simple.tcl)
 
 		dc_shell -f simple.tcl
-
+2) Run the script ICC (source icc_run.tcl)
 ## Digital Design Flow
 
 This flow consist of:
@@ -49,4 +49,4 @@ This flow consist of:
 * Example Scripts
 ![digital](doc/img/digital.png "Digital Diagram")
 
-3) Run the script ICC (source icc_run.tcl)
+
