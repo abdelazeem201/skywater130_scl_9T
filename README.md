@@ -23,7 +23,7 @@ This project does not contain any confidential information. You must contact MOS
 		milkyway db
 	icc / io_pads: 
 		milkyway db (IO Pads)
-	icc / gds : 
+	gds : 
 		std cells gds format
 
 	libs : Libraries .lib .db characterized using Siliconsmart
