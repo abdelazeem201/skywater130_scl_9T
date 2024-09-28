@@ -6,7 +6,7 @@ Preliminary Version - Work in Progress
 * Ahmed Abdelazeem a.abdelazeem201@gmail.com
 
 ## Disclaimer
-This project does not contain any confidential information. You must contact MOSIS and sign the corresponding NDA to obtain the official PDK. This project is a set of libraries and scripts for use with the synopsys and Cadence tools and the official PDK.
+This project does not contain any confidential information. This project is a set of libraries and scripts for use with the synopsys and Cadence tools and the official PDK.
 
 ## Structure
 
